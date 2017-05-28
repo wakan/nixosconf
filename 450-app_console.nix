@@ -1,7 +1,11 @@
 { config, pkgs, ... }:
 
 {
- 
+
+  environment.variables = {
+    EDITOR = "emacs";
+  };
+
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile. To search by name, run:
@@ -19,6 +23,9 @@
     pciutils
     nix-repl
     cargo rustc
+    unzip
+    wakelan
+    inetutils
 ];
 
   programs.zsh.enable = true;
