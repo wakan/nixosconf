@@ -1,0 +1,4 @@
+{
+#rsa generate key for guest portable msi
+    guestportmsi = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaOxEFKQ7mkg+RoZ05R21vPVypCtc4L4QWVSKL96K0xH37IuW7T9+GVGSIAs4LnJpkzM+WdyCWGudpCdxPxJdy/ERWTTeyKZ7gzmjp2+XAXXHGs0fn0KuNI7os/TzeDBDw6OAdRW4DPH7JR2hhTm5Hzw77q4wjmxFs+wSlPoXx5KtaY5hPzSuIUSUH0qFAZyuy21SzvsIt+skd8HSKTiYsletlQAIcmHyHaqNs7DJrpUiBX7+PJoXOdFWdvalGqg1w5JNm4iM9122dJdxhPGLh7rScnVONmKwv0HERLJT9HpKhdWzKZe6qWatc51WwaCP/FTcNo7ZWKTuZquuI1whj guest@nixos";
+}
