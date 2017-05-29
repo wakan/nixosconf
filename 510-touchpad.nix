@@ -1,5 +1,5 @@
 
-{ config, pkgs, ... }:
+{ ... }:
 {
       services.xserver.synaptics = {
         enable = true;

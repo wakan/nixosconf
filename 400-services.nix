@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
 
@@ -20,10 +20,10 @@
   # Enable CUPS to print documents.
   # services.printing.enable = true;
 
-services.ntp = {
+  services.ntp = {
 	enable = true;
 	servers = [ "0.pool.ntp.org" "1.pool.ntp.org" "2.pool.ntp.org" ];
-};
+  };
 
 
   services.cron = {
