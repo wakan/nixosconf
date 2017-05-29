@@ -1,7 +1,8 @@
 { ... }:
 {
   boot.loader.grub.default = 1;
-  
+  boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
+    
   fileSystems."/data" = {
     device = "/dev/disk/by-label/linuxdata";
     fsType = "ext4";
