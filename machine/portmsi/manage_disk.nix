@@ -7,6 +7,7 @@
     device = "/dev/disk/by-label/nixos";
     fsType = "ext4";
     neededForBoot = true;
+    options = [ "defaults" "noatime" ];
   };
   fileSystems."/data" = {
     device = "/dev/disk/by-label/linuxdata";
