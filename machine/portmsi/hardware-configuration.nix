@@ -12,11 +12,6 @@
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
 
-  fileSystems."/" =
-    { device = "/dev/disk/by-uuid/07d3bbc8-192a-40cf-b145-f05c34852846";
-      fsType = "ext4";
-    };
-
   swapDevices = [ ];
 
   nix.maxJobs = lib.mkDefault 4;
