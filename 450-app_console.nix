@@ -26,6 +26,7 @@
     unzip
     wakelan
     inetutils
+    libarchive
 ];
 
   programs.zsh.enable = true;
