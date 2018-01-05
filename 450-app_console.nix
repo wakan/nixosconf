@@ -30,7 +30,6 @@
 ];
 
   programs.zsh.enable = true;
-  programs.zsh.ohMyZsh.enable = true;
   services.emacs.enable = true;
   #services.emacs.package = import /home/guest/.emacs.d {pkgs = pkgs; };
 }
