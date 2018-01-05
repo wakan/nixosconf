@@ -24,8 +24,5 @@
     qjackctl
     vmpk
     (import ./610-my-hello.nix)
-    spotify
   ];
-
-  nixpkgs.config.firefox.enableAdobeFlash = true;
 }

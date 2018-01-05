@@ -22,8 +22,9 @@
     device = "/data/home";
     options = ["bind"];
   };
-#  fileSystems."/nix" = {
-#    device = "/data/nix";
-#    options = ["bind"];
-#  };
+  fileSystems."/nix" = {
+    neededForBoot = true;
+    device = "/data/nix";
+    options = ["bind"];
+  };
 }
