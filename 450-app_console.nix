@@ -3,7 +3,7 @@
 {
 
   environment.variables = {
-    EDITOR = "emacs";
+    EDITOR = "vim";
   };
 
   nixpkgs.config.allowUnfree = true;
@@ -29,9 +29,8 @@
     libarchive
 ];
 
-  programs.zsh.enable = true;
-  services.emacs.enable = true;
-  #services.emacs.package = import /home/guest/.emacs.d {pkgs = pkgs; };
+  programs.fish.enable = true;
+  users.extraUsers.guest.shell = pkgs.fish;
 }
 
 
