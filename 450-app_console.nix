@@ -2,16 +2,14 @@
 
 {
 
-  environment.variables = {
-    EDITOR = "vim";
-  };
-
+  programs.vim.defaultEditor = true;
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    wget vim htop ftop lsof git tmux ripgrep
+    wget vim ftop git tmux ripgrep
+    strace tcpdump htop iftop lsof
     ffmpeg
     x264
     mplayer

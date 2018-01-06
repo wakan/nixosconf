@@ -7,6 +7,7 @@
         extraGroups =
           [
             "wheel" "disk" "audio" "video"
+	    "camera"
             "networkmanager" "systemd-journal"
             "docker"
           ];

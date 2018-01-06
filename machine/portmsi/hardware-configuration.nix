@@ -15,4 +15,5 @@
   swapDevices = [ ];
 
   nix.maxJobs = lib.mkDefault 4;
+  #hardware.bumblebee.enable = true;
 }
