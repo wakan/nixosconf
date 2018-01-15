@@ -13,4 +13,12 @@
   services.xserver.enable = true;
   services.xserver.layout = "fr";
   services.xserver.xkbOptions = "eurosign:e";
+
+
+  environment.systemPackages = with pkgs ; [
+    xlibs.xev
+    xorg.xbacklight
+  ];
+
 }
+
