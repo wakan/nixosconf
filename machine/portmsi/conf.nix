@@ -5,6 +5,7 @@
       ./hardware-configuration.nix
       ./hostname.nix
       ../../110-powermanagement.nix
+      ../../111-bluetooth.nix
       ../../120-grub.nix
       ../../121-grubwindowsentry.nix
       ./manage_disk.nix
