@@ -17,6 +17,7 @@
     firefox
     glmark2
     atom
+    jetbrains.datagrip
     (import ./610-my-hello.nix)
   ];
 }
