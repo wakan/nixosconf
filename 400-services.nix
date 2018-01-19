@@ -51,6 +51,10 @@ services.redshift.enable = true;
 services.redshift.latitude = "43.5283000";
 services.redshift.longitude = "5.4497300";
 
+services.ipfs.enable = true;
+services.ipfs.enableGC = true;
+services.ipfs.gatewayAddress = "/ip4/127.0.0.1/tcp/8099";
+services.ipfs.emptyRepo = true;
 
 
 }
