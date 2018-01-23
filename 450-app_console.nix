@@ -11,6 +11,7 @@
     wget vim ftop git tmux ripgrep
     strace tcpdump htop iftop lsof
     openssl
+    docker_compose
     ffmpeg
     x264
     mplayer
