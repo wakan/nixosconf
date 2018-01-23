@@ -10,6 +10,7 @@
   environment.systemPackages = with pkgs; [
     wget vim ftop git tmux ripgrep
     strace tcpdump htop iftop lsof
+    openssl
     ffmpeg
     x264
     mplayer
