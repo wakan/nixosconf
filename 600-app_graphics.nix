@@ -6,7 +6,6 @@
 
   environment.systemPackages = with pkgs ; [
     rxvt_unicode
-    xvkbd
     xcompmgr
     zathura
     libreoffice
