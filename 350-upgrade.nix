@@ -2,8 +2,8 @@
 
 {
   system.autoUpgrade.enable = true;
-  system.autoUpgrade.channel = https://nixos.org/channels/nixos-17.03;
+  system.autoUpgrade.channel = https://nixos.org/channels/nixos-17.08;
 
     # The NixOS release to be compatible with for stateful data such as databases.
-  system.stateVersion = "17.03";
+  system.nixos.stateVersion = "18.03";
 }
