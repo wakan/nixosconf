@@ -1,5 +1,5 @@
 { ... }:
 
 {
-networking.hostName = "nixos"; # Define your hostname. 
+networking.hostName = "portmsi"; # Define your hostname. 
 }
