@@ -15,14 +15,11 @@
     ffmpeg
     x264
     mplayer
-    sox
     #nix-zsh-completions
     ntfs3g
     udevil #mount umount remote device
     xflux # change color temperature for eye
     pciutils
-    nix-repl
-    cargo rustc
     unzip
     wakelan
     inetutils

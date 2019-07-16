@@ -17,7 +17,9 @@
     firefox
     glmark2
     atom
+    vscode-with-extensions
     jetbrains.datagrip
+    thunderbird
     (import ./610-my-hello.nix)
   ];
 }

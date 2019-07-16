@@ -12,7 +12,6 @@ ubuntu_font_family
 dejavu_fonts
 ucs-fonts
 libertine
-nerdfonts
 proggyfonts
 terminus_font
 anonymousPro
