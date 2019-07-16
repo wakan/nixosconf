@@ -5,7 +5,7 @@
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
   programs.ssh.startAgent = false;
-  services.openssh.passwordAuthentication = false;
+  #services.openssh.passwordAuthentication = false;
 
 
   # Enable CUPS to print documents.
