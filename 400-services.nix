@@ -2,15 +2,6 @@
 
 {
 
-  security.sudo.enable = true;
-  security.sudo.configFile =
-  			   ''
-			   Defaults rootpw
-			   ALL ALL=NOPASSWD: ALL
-			   '';
-
-
-
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
   programs.ssh.startAgent = false;
