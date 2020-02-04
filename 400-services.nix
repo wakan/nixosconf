@@ -39,8 +39,8 @@ systemd.tmpfiles.rules = [ "d /tmp 1777 root root 7d" ];
 };
 
 services.redshift.enable = true;
-services.redshift.latitude = "43.5283000";
-services.redshift.longitude = "5.4497300";
+services.location.latitude = "43.5283000";
+services.location.longitude = "5.4497300";
 
 services.ipfs.enable = true;
 services.ipfs.enableGC = true;
