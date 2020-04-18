@@ -2,7 +2,6 @@
 {
 
   imports = [
-	./510-touchpad.nix
 	./520-font.nix
 	#./551-xmonad.nix
 	#./550-xfce.nix
