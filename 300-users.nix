@@ -3,7 +3,7 @@
 {
   users.extraUsers = {
     guest = {
-        name = "guest";
+        name = "m";
         extraGroups =
           [
             "wheel" "disk" "audio" "video"
