@@ -15,5 +15,4 @@
 swapDevices = [ ];
 
   nix.maxJobs = lib.mkDefault 12;
-  powerManagement.cpuFreqGovernor = "powersave";
 }
