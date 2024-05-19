@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 {
 
   imports = [
@@ -9,10 +9,17 @@
 	#./552-i3.nix
 	./600-app_graphics.nix
   ];
-
-  services.xserver.enable = true;
-  services.xserver.layout = "fr";
-  services.xserver.xkbOptions = "eurosign:e";
+  services.xserver = {  
+    enable = true;
+    layout = "fr";
+    xkbOptions = "eurosign:e";
+    displayManager = {
+      autoLogin = {
+        enable = true;
+        user = config.users.users.guest.name;
+      };
+    };
+  };
   
   virtualisation.virtualbox.guest.enable = true;
 
