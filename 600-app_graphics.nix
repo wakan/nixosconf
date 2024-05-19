@@ -9,7 +9,7 @@
     xcompmgr
     zathura
     libreoffice
-    vlc
+    smplayer
     geeqie
     firefox
     glmark2
