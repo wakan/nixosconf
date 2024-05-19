@@ -7,6 +7,8 @@
 
   environment.systemPackages = with pkgs ; [
     rxvt_unicode
+    filelight
+    deltachat-desktop
     keepassxc
     xcompmgr
     zathura
