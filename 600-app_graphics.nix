@@ -3,6 +3,7 @@
 
   programs.chromium.enable = true;
   programs.gphoto2.enable = true;
+  programs.steam = { enable = true; };
 
   environment.systemPackages = with pkgs ; [
     rxvt_unicode
