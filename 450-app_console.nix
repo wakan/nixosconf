@@ -44,5 +44,3 @@
 
   users.extraUsers.guest.shell = pkgs.fish;
 }
-
-
