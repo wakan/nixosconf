@@ -16,6 +16,7 @@
   }; in
   {
     guest = (commonUserConfig // { name = "guest"; });
+    security = (commonUserConfig // { name = "security"; });
     perso = (commonUserConfig // { name = "perso"; });
     achat = (commonUserConfig // { name = "achat"; });
     hopps = (commonUserConfig // { name = "hopps"; });

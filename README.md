@@ -39,7 +39,7 @@ a
 ```sh
 nix-channel --update
 nixos-rebuild switch --upgrade
-passwd m
-chown -R m .
+passwd guest
+chown -R dev /etc/nixos
 reboot
 ```
