@@ -3,7 +3,7 @@
 {
   imports = [
       ./hostname.nix
-      ../../120-grub.nix
+      ../../120-boot.nix
       ./manage_disk.nix
       ../../150-firewall.nix
       ../../200-geographie.nix
