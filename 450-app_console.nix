@@ -5,7 +5,13 @@
 
   programs = {
     fish.enable = true;
-    git.enable = true;
+    git ={
+      enable = true;
+      config = {
+        user.email = "wakan_powa_s01@hotmail.fr";
+        user.name = "WaKaN";
+      };
+    };
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
