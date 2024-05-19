@@ -5,4 +5,11 @@
   system.autoUpgrade.channel = https://nixos.org/channels/nixos-20.03;
   #/run/current-system/configuration.nix
   system.copySystemConfiguration = true;
+  
+  nix.settings.auto-optimise-store = true;
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+  };
+  
 }
