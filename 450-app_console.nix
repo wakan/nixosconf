@@ -1,16 +1,36 @@
 { pkgs, ... }:
 
 {
-
-  programs.vim.defaultEditor = true;
   nixpkgs.config.allowUnfree = true;
+
+  programs = {
+    fish.enable = true;
+    git.enable = true;
+    gnupg.agent = {
+      enable = true;
+      enableSSHSupport = true;
+    };
+    htop = {
+      enable = true;
+      settings = {
+        hide_kernel_threads = true;
+        hide_userland_threads = true;
+      };
+    };
+    neovim = {
+      enable = true;
+      defaultEditor = true;
+      viAlias = true;
+      vimAlias = true;
+    };
+  };
 
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    wget vim git ripgrep
+    wget ripgrep
     strace tcpdump
-    btop htop iftop lsof
+    btop iftop lsof
     ffmpeg
     x264
     mplayer
@@ -20,8 +40,8 @@
     wakelan
     inetutils
     libarchive
-];
-  programs.fish.enable = true;
+  ];
+
   users.extraUsers.guest.shell = pkgs.fish;
 }
 
