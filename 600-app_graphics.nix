@@ -7,9 +7,10 @@
 
   environment.systemPackages = with pkgs ; [
     rxvt_unicode
+    keepassxc
     xcompmgr
     zathura
-    libreoffice
+    libreoffice-qt
     smplayer
     geeqie
     firefox

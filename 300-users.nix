@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  users.extraUsers = {
+  users.users = {
     guest = {
         name = "m";
         extraGroups =
