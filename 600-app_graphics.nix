@@ -18,6 +18,7 @@
     glmark2
     vscode-with-extensions
     thunderbird
+    freemind
     (import ./610-my-hello.nix)
   ];
 }
