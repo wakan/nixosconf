@@ -1,7 +1,6 @@
 { pkgs, ... }:
 {
 
-  programs.chromium.enable = true;
   programs.gphoto2.enable = true;
   programs.steam = { enable = true; };
 
@@ -15,6 +14,7 @@
     smplayer
     geeqie
     firefox
+    chromium
     glmark2
     vscode-with-extensions
     thunderbird
