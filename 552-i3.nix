@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 {
 
 
@@ -9,22 +9,16 @@
   environment.systemPackages = with pkgs ; [ 
     dmenu 
     i3status 
+    rofi
+    rofi-top
+    rofi-calc
+    rofi-systemd
+    rofi-emoji
+    keepmenu
   ];
-  programs = {
-    rofi = {
-      enable = true;
-      extraConfig = { modi = "drun,run,window"; };
-    };
-  };
 
   xsession = {
       enable = true;
-      initExtra = ''
-        xsetroot -grey
-
-        # No sure why, but i3 doesn't take in account global settings
-        setxkbmap -layout ${config.services.xserver.layout} -variant ${config.services.xserver.xkbVariant}
-      '';
       windowManager = {
         i3 = {
           enable = true;
