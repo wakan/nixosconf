@@ -7,9 +7,8 @@
         extraGroups =
           [
             "wheel" "disk" "audio" "video"
-	    "camera"
+	          "camera"
             "networkmanager" "systemd-journal"
-            "docker"
           ];
         isNormalUser = true;
         uid = 1000;
