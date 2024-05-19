@@ -5,7 +5,14 @@
 
   programs = {
     fish.enable = true;
-    git.enable = true;
+    git ={
+      enable = true;
+      userEmail = "wakan_powa_s01@hotmail.fr";
+      userName = "WaKaN";
+      extraConfig = {
+          safe = { directory = "/etc/nixos"; };
+      };
+    };
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
