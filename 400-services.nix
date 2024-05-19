@@ -6,8 +6,10 @@
   services.openssh = {
     enable = true;
     startWhenNeeded = true;
-    kbdInteractiveAuthentication = false;
-    passwordAuthentication = false;
+    settings = {
+      KbdInteractiveAuthentication = false;
+      PasswordAuthentication = false;
+    };
   };
 
 
@@ -37,11 +39,6 @@ systemd.tmpfiles.rules = [ "d /tmp 1777 root root 7d" ];
 services.redshift.enable = true;
 location.latitude = 43.5283000;
 location.longitude = 5.4497300;
-
-services.ipfs.enable = true;
-services.ipfs.enableGC = true;
-services.ipfs.gatewayAddress = "/ip4/127.0.0.1/tcp/8099";
-services.ipfs.emptyRepo = true;
 
 
 }

@@ -3,9 +3,9 @@
 {
 
 fonts = {
-enableFontDir = true;
+fontDir.enable = true;
 enableGhostscriptFonts = true;
-fonts = with pkgs; [
+packages = with pkgs; [
 corefonts # Microsoft free fonts
 inconsolata # monospaced
 ubuntu_font_family
