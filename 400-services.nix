@@ -3,9 +3,12 @@
 {
 
   # Enable the OpenSSH daemon.
-  services.openssh.enable = true;
-  programs.ssh.startAgent = false;
-  #services.openssh.passwordAuthentication = false;
+  services.openssh = {
+    enable = true;
+    startWhenNeeded = true;
+    kbdInteractiveAuthentication = false;
+    passwordAuthentication = false;
+  };
 
 
   # Enable CUPS to print documents.
