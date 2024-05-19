@@ -15,7 +15,6 @@ libertine
 proggyfonts
 terminus_font
 anonymousPro
-font-awesome-ttf
 fira
 fira-code
 fira-mono

@@ -9,14 +9,12 @@
     xcompmgr
     zathura
     libreoffice
-    skype
     vlc
     smplayer
     gimp
     geeqie
     firefox
     glmark2
-    atom
     vscode-with-extensions
     jetbrains.datagrip
     thunderbird

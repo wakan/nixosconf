@@ -16,7 +16,6 @@
   virtualisation.virtualbox.guest.enable = true;
 
   environment.systemPackages = with pkgs ; [
-    xlibs.xev
     xorg.xbacklight
   ];
 
