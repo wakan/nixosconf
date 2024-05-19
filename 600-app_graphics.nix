@@ -10,13 +10,10 @@
     zathura
     libreoffice
     vlc
-    smplayer
-    gimp
     geeqie
     firefox
     glmark2
     vscode-with-extensions
-    jetbrains.datagrip
     thunderbird
     (import ./610-my-hello.nix)
   ];
