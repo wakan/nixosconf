@@ -4,6 +4,7 @@
   imports = [
       ../../hardware-configuration.nix
       ./blacklist.nix
+      ./intel-opencl.nix
       ./hostname.nix
       ../../110-powermanagement.nix
       ../../111-bluetooth.nix
