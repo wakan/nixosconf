@@ -35,6 +35,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     wget ripgrep
+    inxi
     strace tcpdump
     btop iftop lsof
     ffmpeg
