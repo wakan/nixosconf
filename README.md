@@ -33,7 +33,7 @@ git remote set-url origin git@github.com:wakan/nixosconf.git
 ```sh
 ln -s machine/virtualbox/conf.nix configuration.nix
 ```
-a
+
 ## add channel and recup conf set password
 
 ```sh
