@@ -20,5 +20,6 @@
       ../../450-app_console.nix
       ../../480-audio.nix
       ../../500-xserver.nix
+      ../../700-alias.nix
   ]; 
 }

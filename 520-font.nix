@@ -4,12 +4,17 @@
 
 fonts = {
 fontDir.enable = true;
-enableGhostscriptFonts = true;
 packages = with pkgs; [
+carlito
 corefonts # Microsoft free fonts
 inconsolata # monospaced
 ubuntu_font_family
 dejavu_fonts
+ipafont
+kochi-substitute
+ttf_bitstream_vera
+font-awesome
+monocraft
 ucs-fonts
 libertine
 proggyfonts
@@ -19,6 +24,24 @@ fira
 fira-code
 fira-mono
 ];
+fontconfig.defaultFonts = {
+    monospace = [
+      "terminus"
+      "DejaVu Sans Mono"
+      "IPAGothic"
+    ];
+    sansSerif = [
+      "terminus"
+      "DejaVu Sans"
+      "IPAPGothic"
+    ];
+    serif = [
+      "terminus"
+      "DejaVu Serif"
+      "IPAPMincho"
+    ];
+  };
+
 };
 }
 
