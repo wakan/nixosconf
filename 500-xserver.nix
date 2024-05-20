@@ -13,16 +13,8 @@
     enable = true;
     layout = "fr";
     xkbOptions = "eurosign:e";
-    displayManager = {
-      autoLogin = {
-        enable = true;
-        user = config.users.users.guest.name;
-      };
-    };
   };
   
-  virtualisation.virtualbox.guest.enable = true;
-
   environment.systemPackages = with pkgs ; [
     xorg.xbacklight
   ];

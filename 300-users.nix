@@ -15,12 +15,12 @@
         with import ./misc/ssh-keys.nix; [ guestportmsi ];
   }; in
   {
-    guest = (commonUserConfig // { name = "guest"; });
-    security = (commonUserConfig // { name = "security"; });
-    perso = (commonUserConfig // { name = "perso"; });
-    achat = (commonUserConfig // { name = "achat"; });
-    hopps = (commonUserConfig // { name = "hopps"; });
-    bank = (commonUserConfig // { name = "bank"; });
-    dev = (commonUserConfig // { name = "dev"; });
+    guest = (commonUserConfig);
+    security = (commonUserConfig );
+    perso = (commonUserConfig);
+    achat = (commonUserConfig);
+    hopps = (commonUserConfig);
+    bank = (commonUserConfig);
+    dev = (commonUserConfig);
   };
 }
