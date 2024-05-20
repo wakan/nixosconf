@@ -19,6 +19,7 @@
     vscode-with-extensions
     thunderbird
     freemind
+    ledger-live-desktop
     (import ./610-my-hello.nix)
   ];
 }
