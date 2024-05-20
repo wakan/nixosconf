@@ -6,7 +6,7 @@
   #/run/current-system/configuration.nix
   system.copySystemConfiguration = true;
 
-  system.stateVersion = 23.11;
+  system.stateVersion = "23.11";
   
   nix.settings.auto-optimise-store = true;
   nix.gc = {

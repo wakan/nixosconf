@@ -8,6 +8,7 @@
       ./hostname.nix
       ../../110-powermanagement.nix
       ../../111-bluetooth.nix
+      ../../112-ledger.nix
       ../../120-boot.nix
       ../../150-firewall.nix
       ../../151-wifi.nix
