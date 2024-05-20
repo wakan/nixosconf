@@ -1,0 +1,4 @@
+{ ... } :
+{
+  hardware.ledger.enable = true;
+}
