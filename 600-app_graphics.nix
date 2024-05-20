@@ -3,6 +3,7 @@
 
   programs.gphoto2.enable = true;
   programs.steam = { enable = true; };
+  #services.flameshot.enable = true;
 
   environment.systemPackages = with pkgs ; [
     filelight
@@ -13,8 +14,9 @@
     libreoffice-qt
     smplayer
     geeqie
-    firefox
+    mullvad-browser
     chromium
+    partition-manager
     glmark2
     vscode-with-extensions
     thunderbird
