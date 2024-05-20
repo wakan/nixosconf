@@ -47,7 +47,9 @@
     wakelan
     inetutils
     libarchive
-  ];
+    python311Packages.ledger_agent
+    ];
 
-  users.extraUsers.guest.shell = pkgs.fish;
+  users.defaultUserShell = pkgs.fish;
+
 }
