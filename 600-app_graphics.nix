@@ -6,13 +6,17 @@
   #services.flameshot.enable = true;
 
   environment.systemPackages = with pkgs ; [
+    arandr
+    xdotool
     filelight
+    libsForQt5.kcalc
+    libsForQt5.kdenlive
+    appimage-run
     deltachat-desktop
     keepassxc
     xcompmgr
     zathura
     libreoffice-qt
-    smplayer
     geeqie
     mullvad-browser
     chromium
@@ -22,6 +26,10 @@
     thunderbird
     freemind
     ledger-live-desktop
+    discord
+    lutris
+    calibre
+    freetube
     (import ./610-my-hello.nix)
   ];
 }

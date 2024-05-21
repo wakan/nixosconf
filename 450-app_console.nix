@@ -34,19 +34,21 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    wget ripgrep
+    wget ripgrep killall
+    curl jq
     inxi
     strace tcpdump
     btop iftop lsof
     ffmpeg
     x264
-    mplayer
+    mpv
     ntfs3g
     pciutils
     unzip
     wakelan
     inetutils
     libarchive
+    fishPlugins.fzf
     python311Packages.ledger_agent
     ];
 
