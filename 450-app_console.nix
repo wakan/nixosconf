@@ -49,6 +49,7 @@
     inetutils
     libarchive
     fishPlugins.fzf
+    dotnet-sdk_8
     python311Packages.ledger_agent
     ];
 
