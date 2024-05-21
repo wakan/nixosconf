@@ -25,13 +25,6 @@
 
   services.udisks2.enable = true;
 
-  services.cron = {
-    enable = true;
-    systemCronJobs = [
-      "@weekly root nix-collect-garbage -d"
-    ];
-};
-
 services.clamav = {
   updater.enable = true;
   updater.frequency = 1; #nb check by day
